@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4089B51D23EE56D700794E99 /* girl_group.json in Resources */ = {isa = PBXBuildFile; fileRef = 4089B51C23EE56D700794E99 /* girl_group.json */; };
+		4089B51F23EE573D00794E99 /* IdolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089B51E23EE573D00794E99 /* IdolModel.swift */; };
 		B8A0A08723E9321A008ED5B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0A08623E9321A008ED5B5 /* AppDelegate.swift */; };
 		B8A0A08923E9321A008ED5B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0A08823E9321A008ED5B5 /* SceneDelegate.swift */; };
 		B8A0A08B23E9321A008ED5B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A0A08A23E9321A008ED5B5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4089B51C23EE56D700794E99 /* girl_group.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = girl_group.json; sourceTree = "<group>"; };
+		4089B51E23EE573D00794E99 /* IdolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolModel.swift; sourceTree = "<group>"; };
 		B8A0A08323E9321A008ED5B5 /* AutolayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A0A08623E9321A008ED5B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8A0A08823E9321A008ED5B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				B8A0A08623E9321A008ED5B5 /* AppDelegate.swift */,
 				B8A0A08823E9321A008ED5B5 /* SceneDelegate.swift */,
 				B8A0A08A23E9321A008ED5B5 /* ViewController.swift */,
+				4089B51E23EE573D00794E99 /* IdolModel.swift */,
 				B8A0A08C23E9321A008ED5B5 /* Main.storyboard */,
 				B8A0A08F23E9321B008ED5B5 /* Assets.xcassets */,
 				B8A0A09123E9321B008ED5B5 /* LaunchScreen.storyboard */,
 				B8A0A09423E9321B008ED5B5 /* Info.plist */,
+				4089B51C23EE56D700794E99 /* girl_group.json */,
 			);
 			path = AutolayoutExample;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8A0A09323E9321B008ED5B5 /* LaunchScreen.storyboard in Resources */,
+				4089B51D23EE56D700794E99 /* girl_group.json in Resources */,
 				B8A0A09023E9321B008ED5B5 /* Assets.xcassets in Resources */,
 				B8A0A08E23E9321A008ED5B5 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				B8A0A08B23E9321A008ED5B5 /* ViewController.swift in Sources */,
 				B8A0A08723E9321A008ED5B5 /* AppDelegate.swift in Sources */,
 				B8A0A08923E9321A008ED5B5 /* SceneDelegate.swift in Sources */,
+				4089B51F23EE573D00794E99 /* IdolModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

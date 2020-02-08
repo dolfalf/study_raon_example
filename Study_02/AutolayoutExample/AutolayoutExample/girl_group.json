@@ -1,0 +1,59 @@
+{
+  "girl_group": [
+    {
+      "group_name": "트와이스",
+      "name": "사나",
+      "image": "twice_sana"
+    },
+    {
+      "group_name": "트와이스",
+      "name": "나연",
+      "image": "twice_nayeon"
+    },
+    {
+      "group_name": "레드벨벳",
+      "name": "아이린",
+      "image": "red_irin"
+    },
+    {
+      "group_name": "아이즈원",
+      "name": "민주",
+      "image": "izone_minju"
+    },
+    {
+      "group_name": "소녀시대",
+      "name": "유나",
+      "image": "sonyo_yuna"
+    },
+    {
+      "group_name": "블랙핑크",
+      "name": "제니",
+      "image": "black_jeni"
+    },
+    {
+      "group_name": "블랙핑크",
+      "name": "지수",
+      "image": "black_jisu"
+    },
+    {
+      "group_name": "오마이걸",
+      "name": "아린",
+      "image": "ohmy_arin"
+    },
+    {
+      "group_name": "AOA",
+      "name": "미나",
+      "image": "aoa_mina"
+    },
+    {
+      "group_name": "에어핑크",
+      "name": "은지",
+      "image": "apink_enji_1"
+    },
+    {
+      "group_name": "에어핑크",
+      "name": "은지",
+      "image": "apink_enji_2"
+    }
+  ]
+}

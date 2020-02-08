@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,48 +36,82 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="4cr-2C-WRp" secondAttribute="height" id="sXc-XW-UBp"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2i3-ff-mW4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKa-51-F0A" userLabel="Button2">
                                                 <rect key="frame" x="143.5" y="8" width="127" height="127.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKZ-GT-vPm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7x-YI-QMm" userLabel="Button3">
                                                 <rect key="frame" x="278.5" y="8" width="127.5" height="127.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m1r-g5-L0w"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaq-8l-LSR" userLabel="Button4">
                                                 <rect key="frame" x="8" y="143.5" width="127.5" height="127"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBj-SB-WXJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjL-7Q-28I" userLabel="Button5">
                                                 <rect key="frame" x="143.5" y="143.5" width="127" height="127"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="huS-4o-uWx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykZ-bu-FMz" userLabel="Button6">
                                                 <rect key="frame" x="278.5" y="143.5" width="127.5" height="127"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="isz-DC-3iV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CT-45-ToT" userLabel="Button7">
                                                 <rect key="frame" x="8" y="278.5" width="127.5" height="127.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9RX-uZ-YU1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbi-c2-uai" userLabel="Button8">
                                                 <rect key="frame" x="143.5" y="278.5" width="127" height="127.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaV-Bz-Ygr"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QwV-js-HJb" userLabel="Button9">
                                                 <rect key="frame" x="278.5" y="278.5" width="127.5" height="127.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fbl-Co-Q3M"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obb-RU-bBP" userLabel="Button10">
-                                                <rect key="frame" x="8" y="414" width="398" height="336"/>
+                                                <rect key="frame" x="39" y="414" width="336" height="336"/>
                                                 <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="obb-RU-bBP" secondAttribute="height" id="SsH-cz-Z1e"/>
+                                                </constraints>
                                                 <variation key="heightClass=compact" hidden="YES"/>
+                                                <connections>
+                                                    <action selector="buttonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mcY-Qd-8U7"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="n7x-YI-QMm" firstAttribute="top" secondItem="4cr-2C-WRp" secondAttribute="top" id="30f-81-zqx"/>
+                                            <constraint firstItem="obb-RU-bBP" firstAttribute="centerX" secondItem="NTS-x3-1SP" secondAttribute="centerX" id="3s2-qV-Vba"/>
                                             <constraint firstItem="0CT-45-ToT" firstAttribute="top" secondItem="kaq-8l-LSR" secondAttribute="bottom" constant="8" id="4cd-of-C5N"/>
                                             <constraint firstItem="QwV-js-HJb" firstAttribute="width" secondItem="4cr-2C-WRp" secondAttribute="width" id="4nC-2S-H4k"/>
                                             <constraint firstItem="4cr-2C-WRp" firstAttribute="leading" secondItem="NTS-x3-1SP" secondAttribute="leading" constant="8" id="5zc-LT-Gvq"/>
@@ -89,7 +123,6 @@
                                             <constraint firstItem="kaq-8l-LSR" firstAttribute="width" secondItem="4cr-2C-WRp" secondAttribute="width" id="BOI-BX-ap0"/>
                                             <constraint firstItem="0CT-45-ToT" firstAttribute="height" secondItem="4cr-2C-WRp" secondAttribute="height" id="DaZ-Jj-DR3"/>
                                             <constraint firstItem="Zbi-c2-uai" firstAttribute="top" secondItem="0CT-45-ToT" secondAttribute="top" id="E27-zs-lmg"/>
-                                            <constraint firstItem="obb-RU-bBP" firstAttribute="leading" secondItem="4cr-2C-WRp" secondAttribute="leading" id="EOc-KF-YIK"/>
                                             <constraint firstItem="Zbi-c2-uai" firstAttribute="height" secondItem="4cr-2C-WRp" secondAttribute="height" id="EcD-Lv-eci"/>
                                             <constraint firstItem="kaq-8l-LSR" firstAttribute="leading" secondItem="4cr-2C-WRp" secondAttribute="leading" id="FDr-pi-XVD"/>
                                             <constraint firstItem="gjL-7Q-28I" firstAttribute="height" secondItem="4cr-2C-WRp" secondAttribute="height" id="HRT-j9-IxP"/>
@@ -123,7 +156,6 @@
                                             <constraint firstItem="0CT-45-ToT" firstAttribute="leading" secondItem="4cr-2C-WRp" secondAttribute="leading" id="qHe-ic-d3p"/>
                                             <constraint firstItem="Zbi-c2-uai" firstAttribute="bottom" secondItem="0CT-45-ToT" secondAttribute="bottom" id="qf7-li-Pjm"/>
                                             <constraint firstItem="ykZ-bu-FMz" firstAttribute="height" secondItem="4cr-2C-WRp" secondAttribute="height" id="vXe-IU-EfE"/>
-                                            <constraint firstItem="obb-RU-bBP" firstAttribute="trailing" secondItem="n7x-YI-QMm" secondAttribute="trailing" id="vqH-qg-I0O"/>
                                             <constraint firstAttribute="trailing" secondItem="n7x-YI-QMm" secondAttribute="trailing" constant="8" id="wHH-7a-5rg"/>
                                             <constraint firstItem="gjL-7Q-28I" firstAttribute="top" secondItem="kaq-8l-LSR" secondAttribute="top" id="zB2-1y-qNG"/>
                                             <constraint firstItem="ykZ-bu-FMz" firstAttribute="width" secondItem="4cr-2C-WRp" secondAttribute="width" id="zu9-yp-nyI"/>
@@ -131,23 +163,21 @@
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="I0u-LI-aQq"/>
+                                                <exclude reference="6GW-SA-ikz"/>
                                                 <exclude reference="IMb-dJ-Bgh"/>
                                                 <exclude reference="bEd-1b-WC4"/>
                                                 <exclude reference="nKp-ve-XLh"/>
-                                                <exclude reference="6GW-SA-ikz"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=compact">
                                             <mask key="constraints">
                                                 <include reference="I0u-LI-aQq"/>
-                                                <exclude reference="EOc-KF-YIK"/>
+                                                <include reference="6GW-SA-ikz"/>
                                                 <include reference="IMb-dJ-Bgh"/>
                                                 <exclude reference="LyU-m7-tbf"/>
                                                 <include reference="bEd-1b-WC4"/>
                                                 <exclude reference="jKV-cM-lDx"/>
                                                 <include reference="nKp-ve-XLh"/>
-                                                <exclude reference="vqH-qg-I0O"/>
-                                                <include reference="6GW-SA-ikz"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -156,10 +186,10 @@
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k9R-jZ-tmW">
                                                 <rect key="frame" x="0.0" y="0.0" width="0.0" height="770"/>
-                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="k9R-jZ-tmW" secondAttribute="trailing" id="DnJ-wc-CBq"/>
                                             <constraint firstItem="k9R-jZ-tmW" firstAttribute="top" secondItem="p7k-3B-yd6" secondAttribute="top" id="WdY-8O-WTD"/>
@@ -171,7 +201,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ds7-Bl-1K6" secondAttribute="bottom" id="0Jw-YV-ipz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tsi-ay-OVz" secondAttribute="trailing" constant="16" id="7vk-x2-afZ"/>
@@ -183,6 +213,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="k9R-jZ-tmW" id="LPU-M1-3tK"/>
+                        <outlet property="label" destination="tsi-ay-OVz" id="cCX-oB-eFF"/>
+                        <outletCollection property="buttonCollection" destination="4cr-2C-WRp" collectionClass="NSMutableArray" id="pvh-Qs-IlD"/>
+                        <outletCollection property="buttonCollection" destination="IKa-51-F0A" collectionClass="NSMutableArray" id="Cde-0u-92S"/>
+                        <outletCollection property="buttonCollection" destination="n7x-YI-QMm" collectionClass="NSMutableArray" id="7Cy-Ru-U1c"/>
+                        <outletCollection property="buttonCollection" destination="kaq-8l-LSR" collectionClass="NSMutableArray" id="if4-sQ-awc"/>
+                        <outletCollection property="buttonCollection" destination="gjL-7Q-28I" collectionClass="NSMutableArray" id="Edj-x3-eHD"/>
+                        <outletCollection property="buttonCollection" destination="ykZ-bu-FMz" collectionClass="NSMutableArray" id="3JU-sP-efI"/>
+                        <outletCollection property="buttonCollection" destination="0CT-45-ToT" collectionClass="NSMutableArray" id="Qoq-Kw-OW2"/>
+                        <outletCollection property="buttonCollection" destination="Zbi-c2-uai" collectionClass="NSMutableArray" id="oS8-Nw-3bQ"/>
+                        <outletCollection property="buttonCollection" destination="QwV-js-HJb" collectionClass="NSMutableArray" id="6ec-5F-eJD"/>
+                        <outletCollection property="buttonCollection" destination="obb-RU-bBP" collectionClass="NSMutableArray" id="xU3-kz-jMa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
